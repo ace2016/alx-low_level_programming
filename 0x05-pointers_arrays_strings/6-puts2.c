@@ -10,7 +10,7 @@ void puts2(char *str)
 	int l = 0;
 	char *y = str;
 	int z;
-	
+
 	/* get the string length*/
 
 	while (*y != '\0')
@@ -20,11 +20,11 @@ void puts2(char *str)
 	}
 
 	l = len - 1;
-	
+
 	/*Iterate through the value*/
 	for (z = 0 ; z <= l ; z++)
 	{
-	/*check for the condition using remider*/
+	/*check for the condition using remainder*/
 		if (z % 2 == 0)
 		{
 			_putchar(str[z]);
